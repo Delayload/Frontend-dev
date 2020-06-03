@@ -4,14 +4,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .item {
-  margin: 0 16px;
-  font-family: "FiraSans";
+  margin: 24px 16px;
+  font-family: "Fira Sans";
   font-weight: 400;
   font-size: 16px;
   color: #3e4247;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
   &:last-of-type {
     margin-right: 0;
   }

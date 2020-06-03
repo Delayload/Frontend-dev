@@ -5,10 +5,15 @@
   background-color: white;
   display: flex;
   margin-bottom: 48px;
+  &:last-of-type {
+    margin-bottom: 96px;
+  }
 }
 
 .content {
-  margin-left: 32px;
+  padding-left: 32px;
+  padding-top: 24px;
+  border-bottom: solid 2px #646971;
 }
 
 .adress {
@@ -17,20 +22,22 @@
   text-align: left;
   color: #646971;
   margin: 0;
+  margin-bottom: 24px;
 }
 
 .name {
-  font-family: FiraSans;
+  font-family: "Fira Sans";
   font-size: 40px;
   font-weight: bold;
   line-height: 1.4;
   text-align: left;
   color: #000000;
   margin: 0;
+  margin-bottom: 8px;
 }
 
 .description {
-  font-family: FiraSans;
+  font-family: "Fira Sans";
   font-size: 16px;
   line-height: 1.5;
   text-align: left;

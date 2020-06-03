@@ -1,0 +1,74 @@
+.container {
+  background-color: black;
+  padding-top: 32px;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.props {
+}
+
+.name {
+  font-family: "Fira Sans";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #646971;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.regnumber,
+.identnumber,
+.telephone {
+  font-family: "Fira Sans";
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  color: #646971;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.identnumber {
+  margin-bottom: 16px;
+}
+
+.info {
+  width: 795px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.complexes {
+  width: 186px;
+  border-top: 2px solid #3e4247;
+}
+
+.complexesHeader {
+  font-family: "Fira Sans";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #646971;
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 7px;
+}
+
+.about {
+}
+
+.copyright {
+  font-family: "Fira Sans";
+  font-size: 11px;
+  font-weight: 300;
+  text-align: left;
+  color: #a9afb6;
+  margin: 0;
+}

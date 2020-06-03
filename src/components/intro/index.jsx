@@ -4,14 +4,14 @@ import LogoIndex from "../../img/compass-development-logo.png";
 
 function Intro() {
   return (
-    <div className={styles.intro}>
+    <article className={styles.intro}>
       <img
         src={LogoIndex}
         alt="Compass development logo"
         width="419"
         height="131"
       />
-    </div>
+    </article>
   );
 }
 

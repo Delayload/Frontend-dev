@@ -6,6 +6,7 @@ import Intro from "./components/intro";
 import Contacts from "./components/contacts";
 import Card from "./components/booking-card";
 import img1 from "./img/bitmap.jpg";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         name="TriBeCa Apartments"
         description="TriBeCa Apartments — это жилой комплекс с квартирами премиум и бизнес-класса. Корпуса спроектированы в стиле ар-деко и похожи на здания Нью-Йорка."
       />
+      <Footer />
     </div>
   );
 }

@@ -3,29 +3,33 @@
   width: 1200px;
 }
 .wrap {
-  margin: 0 auto;
+  margin: 64px auto;
   width: 67%;
 }
 
 .header {
-  font-family: FiraSans;
+  font-family: "Fira Sans";
   font-size: 24px;
   font-weight: bold;
   color: #3e4247;
   text-align: center;
+  margin: 0;
+  margin-bottom: 8px;
 }
 
 .description {
-  font-family: FiraSans;
+  font-family: "Fira Sans";
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   color: #3e4247;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .button {
   display: block;
-  font-family: FiraSans;
+  font-family: "Fira Sans";
   font-size: 16px;
   text-align: center;
   color: white;
