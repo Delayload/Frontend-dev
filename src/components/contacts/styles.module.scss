@@ -1,14 +1,15 @@
-.container {
+.contacts {
   margin: 0 auto;
   width: 1200px;
 }
+
 .wrap {
   margin: 64px auto;
-  width: 67%;
+  width: 804px;
 }
 
 .header {
-  font-family: "Fira Sans";
+  font-family: "FiraSansBold";
   font-size: 24px;
   font-weight: bold;
   color: #3e4247;
@@ -18,7 +19,7 @@
 }
 
 .description {
-  font-family: "Fira Sans";
+  font-family: "FiraSansRegular";
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -29,7 +30,7 @@
 
 .button {
   display: block;
-  font-family: "Fira Sans";
+  font-family: "FiraSansRegular";
   font-size: 16px;
   text-align: center;
   color: white;

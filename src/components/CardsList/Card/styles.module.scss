@@ -1,12 +1,18 @@
-.container {
+.cardContainer {
   display: block;
   width: 1200px;
   margin: 0 auto;
   background-color: white;
   display: flex;
   margin-bottom: 48px;
+
   &:last-of-type {
     margin-bottom: 96px;
+  }
+
+  img {
+    width: 491px;
+    height: 350px;
   }
 }
 
@@ -16,17 +22,18 @@
   border-bottom: solid 2px #646971;
 }
 
-.adress {
+.address {
   font-family: Monaco;
   font-size: 16px;
   text-align: left;
   color: #646971;
   margin: 0;
   margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
 .name {
-  font-family: "Fira Sans";
+  font-family: "FiraSansBold";
   font-size: 40px;
   font-weight: bold;
   line-height: 1.4;
@@ -37,7 +44,7 @@
 }
 
 .description {
-  font-family: "Fira Sans";
+  font-family: "FiraSansRegular";
   font-size: 16px;
   line-height: 1.5;
   text-align: left;

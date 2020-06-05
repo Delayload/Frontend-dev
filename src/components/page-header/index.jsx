@@ -5,14 +5,14 @@ import Logo from "../../img/compass-logo.svg";
 
 function PageHeader() {
   return (
-    <div className={styles.container}>
+    <header className={styles.pageHeader}>
       <div className={styles.wrap}>
-        <a className={styles.logo} href=" ">
-          <img src={Logo} alt="Compass" width="179px" height="24px" />
+        <a className={styles.logo} href="-">
+          <img src={Logo} alt="Compass" />
         </a>
         <MainNav />
       </div>
-    </div>
+    </header>
   );
 }
 

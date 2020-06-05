@@ -1,7 +1,9 @@
-.container {
+.pageFooter {
   background-color: black;
   padding-top: 32px;
+  padding-bottom: 31px;
 }
+
 .wrap {
   width: 1200px;
   margin: 0 auto;
@@ -9,11 +11,8 @@
   justify-content: space-between;
 }
 
-.props {
-}
-
 .name {
-  font-family: "Fira Sans";
+  font-family: "FiraSansBold";
   font-size: 14px;
   font-weight: bold;
   text-align: left;
@@ -25,7 +24,7 @@
 .regnumber,
 .identnumber,
 .telephone {
-  font-family: "Fira Sans";
+  font-family: "FiraSansLight";
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -45,27 +44,8 @@
   justify-content: start;
 }
 
-.complexes {
-  width: 186px;
-  border-top: 2px solid #3e4247;
-}
-
-.complexesHeader {
-  font-family: "Fira Sans";
-  font-size: 14px;
-  font-weight: bold;
-  text-align: left;
-  color: #646971;
-  margin: 0;
-  margin-top: 16px;
-  margin-bottom: 7px;
-}
-
-.about {
-}
-
 .copyright {
-  font-family: "Fira Sans";
+  font-family: "FiraSansLight";
   font-size: 11px;
   font-weight: 300;
   text-align: left;

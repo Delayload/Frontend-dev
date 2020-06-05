@@ -2,12 +2,12 @@ import React from "react";
 import propTypes from "prop-types";
 import styles from "./styles.module.scss";
 
-function Card({ src, adress, name, description }) {
+function Card({ src, address, name, description, alt }) {
   return (
-    <a href=" " className={styles.container}>
-      <img src={src} alt="" width="491" height="350" />
+    <a href="-" className={styles.cardContainer}>
+      <img src={src} alt={alt} />
       <div className={styles.content}>
-        <p className={styles.adress}>{adress}</p>
+        <p className={styles.address}>{address}</p>
         <h2 className={styles.name}>{name}</h2>
         <p className={styles.description}>{description}</p>
       </div>
@@ -16,8 +16,9 @@ function Card({ src, adress, name, description }) {
 }
 Card.propTypes = {
   src: propTypes.string.isRequired,
-  adress: propTypes.string.isRequired,
+  address: propTypes.string.isRequired,
   name: propTypes.string.isRequired,
   description: propTypes.string.isRequired,
+  alt: propTypes.string.isRequired,
 };
 export default Card;
