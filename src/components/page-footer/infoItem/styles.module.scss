@@ -1,37 +1,39 @@
+@import "../../../assets/mixins.scss";
+@import "../../../assets/variables.scss";
+
 .infoList {
   width: 186px;
-  border-top: 2px solid #3e4247;
   margin-bottom: 95px;
   margin-right: 17px;
+  border-top: 2px solid $main-text-color;
 }
 
 .infoHeader {
-  font-family: "FiraSansBold";
-  font-size: 14px;
-  font-weight: bold;
-  text-align: left;
-  color: #646971;
   margin: 0;
   margin-top: 16px;
   margin-bottom: 7px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $alt-text-color;
+  @include font(14px, 700, 1);
 }
 
 .infoItem {
   display: block;
-  font-family: "FiraSansLight";
-  font-size: 14px;
-  font-weight: 300;
-  text-align: left;
-  color: white;
   margin-top: 8px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $second-text-color;
+  @include font(14px, 300, 1);
 }
 
 .infoItemAll {
   display: block;
-  font-family: "FiraSansLight";
-  font-size: 14px;
-  font-weight: 300;
-  text-align: left;
-  color: white;
   margin-top: 15px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $second-text-color;
+  @include font(14px, 300, 1);
+  background: url("../../../img/combined-shape.svg") no-repeat;
+  background-position: 105px center;
 }

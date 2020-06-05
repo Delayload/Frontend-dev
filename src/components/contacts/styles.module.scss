@@ -1,3 +1,6 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
 .contacts {
   margin: 0 auto;
   width: 1200px;
@@ -9,33 +12,31 @@
 }
 
 .header {
-  font-family: "FiraSansBold";
-  font-size: 24px;
-  font-weight: bold;
-  color: #3e4247;
-  text-align: center;
   margin: 0;
   margin-bottom: 8px;
+  font-family: $main-text-font;
+  color: $main-text-color;
+  text-align: center;
+  @include font(24px, bold, 1);
 }
 
 .description {
-  font-family: "FiraSansRegular";
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #3e4247;
   margin: 0;
   margin-bottom: 16px;
+  font-family: $main-text-font;
+  color: $main-text-color;
+  text-align: center;
+  @include font(16px, 400, 1.5);
 }
 
 .button {
   display: block;
-  font-family: "FiraSansRegular";
-  font-size: 16px;
-  text-align: center;
-  color: white;
   padding: 12px 32px;
-  background-color: black;
   border: none;
   margin: 0 auto;
+  background-color: $second-bcg-color;
+  font-family: $main-text-font;
+  color: $second-text-color;
+  text-align: center;
+  @include font(16px, 400, 1);
 }

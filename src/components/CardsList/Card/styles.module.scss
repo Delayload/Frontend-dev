@@ -1,10 +1,12 @@
+@import "../../../assets/mixins.scss";
+@import "../../../assets/variables.scss";
+
 .cardContainer {
-  display: block;
-  width: 1200px;
-  margin: 0 auto;
-  background-color: white;
   display: flex;
+  margin: 0 auto;
   margin-bottom: 48px;
+  width: 1200px;
+  background-color: $first-bcg-color;
 
   &:last-of-type {
     margin-bottom: 96px;
@@ -19,35 +21,32 @@
 .content {
   padding-left: 32px;
   padding-top: 24px;
-  border-bottom: solid 2px #646971;
+  border-bottom: solid 2px $alt-text-color;
 }
 
 .address {
-  font-family: Monaco;
-  font-size: 16px;
-  text-align: left;
-  color: #646971;
   margin: 0;
   margin-bottom: 24px;
   text-transform: uppercase;
+  font-family: $alt-text-font;
+  color: $alt-text-color;
+  text-align: left;
+  @include font(16px, 400, 1);
 }
 
 .name {
-  font-family: "FiraSansBold";
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1.4;
-  text-align: left;
-  color: #000000;
   margin: 0;
   margin-bottom: 8px;
+  font-family: $main-text-font;
+  color: $side-text-color;
+  text-align: left;
+  @include font(40px, bold, 1.4);
 }
 
 .description {
-  font-family: "FiraSansRegular";
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #3e4247;
   margin: 0;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $main-text-color;
+  @include font(16px, 400, 1.5);
 }

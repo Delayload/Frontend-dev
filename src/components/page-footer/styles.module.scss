@@ -1,5 +1,8 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
 .pageFooter {
-  background-color: black;
+  background-color: $second-bcg-color;
   padding-top: 32px;
   padding-bottom: 31px;
 }
@@ -12,25 +15,23 @@
 }
 
 .name {
-  font-family: "FiraSansBold";
-  font-size: 14px;
-  font-weight: bold;
-  text-align: left;
-  color: #646971;
   margin: 0;
   margin-bottom: 8px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $alt-text-color;
+  @include font(14px, 700, 1);
 }
 
 .regnumber,
 .identnumber,
 .telephone {
-  font-family: "FiraSansLight";
-  font-size: 14px;
-  font-weight: 300;
-  text-align: left;
-  color: #646971;
   margin: 0;
   margin-bottom: 8px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $alt-text-color;
+  @include font(14px, 300, 1);
 }
 
 .identnumber {
@@ -38,17 +39,16 @@
 }
 
 .info {
-  width: 795px;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  width: 795px;
 }
 
 .copyright {
-  font-family: "FiraSansLight";
-  font-size: 11px;
-  font-weight: 300;
-  text-align: left;
-  color: #a9afb6;
   margin: 0;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $copyright-text-color;
+  @include font(11px, 300, 1);
 }

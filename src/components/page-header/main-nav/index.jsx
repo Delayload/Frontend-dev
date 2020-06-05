@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import "../../../assets/variables.scss";
-import "../../../assets/mixins.scss";
 
 function MainNav() {
   return (

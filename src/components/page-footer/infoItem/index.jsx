@@ -32,4 +32,5 @@ InfoItem.propTypes = {
   name: propTypes.string.isRequired,
   list: propTypes.arrayOf(Object).isRequired,
 };
+
 export default InfoItem;

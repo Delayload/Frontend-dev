@@ -1,6 +1,9 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
 .intro {
   margin: 0 auto;
-  background-color: black;
+  background-color: $second-bcg-color;
 
   img {
     display: block;

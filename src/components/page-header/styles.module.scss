@@ -1,13 +1,16 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
 .pageHeader {
-  background-color: #ffffff;
+  background-color: $first-bcg-color;
 }
 
 .wrap {
-  width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
