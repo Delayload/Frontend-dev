@@ -2,6 +2,8 @@
 @import "../../assets/variables.scss";
 
 .pageHeader {
+  margin-top: 1px;
+  border-bottom: solid 1px $pale-grey;
   background-color: $first-bcg-color;
 }
 
@@ -15,4 +17,5 @@
 
 .logo {
   display: block;
+  margin-top: 5px;
 }

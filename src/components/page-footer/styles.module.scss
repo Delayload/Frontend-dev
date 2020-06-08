@@ -16,7 +16,8 @@
 
 .name {
   margin: 0;
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 16px;
   font-family: $main-text-font;
   text-align: left;
   color: $alt-text-color;
@@ -27,7 +28,7 @@
 .identnumber,
 .telephone {
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
   font-family: $main-text-font;
   text-align: left;
   color: $alt-text-color;
@@ -35,7 +36,7 @@
 }
 
 .identnumber {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .info {
@@ -50,5 +51,5 @@
   font-family: $main-text-font;
   text-align: left;
   color: $copyright-text-color;
-  @include font(11px, 300, 1);
+  @include font(11px, 300, 1.6);
 }

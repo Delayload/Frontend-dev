@@ -5,7 +5,7 @@
     url("../fonts/FiraSansRegular.woff") format("woff"),
     url("../fonts/FiraSansRegular.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
@@ -15,7 +15,7 @@
     url("../fonts/FiraSansBold.woff") format("woff"),
     url("../fonts/FiraSansBold.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
 }
 
 @font-face {
@@ -25,12 +25,15 @@
     url("../fonts/FiraSansLight.woff") format("woff"),
     url("../fonts/FiraSansLight.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 @font-face {
   font-family: "Monaco";
+  src: url("../fonts/Monaco.eot");
+  src: url("../fonts/Monaco.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Monaco.woff") format("woff"),
+    url("../fonts/Monaco.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Monaco.woff") format("woff");
+  font-weight: 400;
 }

@@ -11,6 +11,9 @@
   &:last-of-type {
     margin-bottom: 96px;
   }
+  &:nth-of-type(2) {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
 
   img {
     width: 491px;
@@ -20,13 +23,14 @@
 
 .content {
   padding-left: 32px;
-  padding-top: 24px;
+  padding-top: 25px;
+  width: 709px;
   border-bottom: solid 2px $alt-text-color;
 }
 
 .address {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 27px;
   text-transform: uppercase;
   font-family: $alt-text-font;
   color: $alt-text-color;
@@ -44,7 +48,9 @@
 }
 
 .description {
+  display: block;
   margin: 0;
+  width: 590px;
   font-family: $main-text-font;
   text-align: left;
   color: $main-text-color;

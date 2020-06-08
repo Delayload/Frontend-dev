@@ -7,13 +7,14 @@
 }
 
 .wrap {
-  margin: 64px auto;
+  margin: 70px auto;
   width: 804px;
+  margin-bottom: 64px;
 }
 
 .header {
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 14px;
   font-family: $main-text-font;
   color: $main-text-color;
   text-align: center;
@@ -22,7 +23,7 @@
 
 .description {
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   font-family: $main-text-font;
   color: $main-text-color;
   text-align: center;
