@@ -1,0 +1,13 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
+.intro {
+  margin: 0 auto;
+  background-color: $second-bcg-color;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    padding: 79px 0;
+  }
+}

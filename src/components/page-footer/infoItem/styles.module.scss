@@ -1,0 +1,39 @@
+@import "../../../assets/mixins.scss";
+@import "../../../assets/variables.scss";
+
+.infoList {
+  width: 186px;
+  margin-bottom: 100px;
+  margin-right: 17px;
+  border-top: 2px solid $main-text-color;
+}
+
+.infoHeader {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $alt-text-color;
+  @include font(14px, 700, 1);
+}
+
+.infoItem {
+  display: block;
+  margin-top: 16px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $second-text-color;
+  @include font(14px, 300, 1);
+}
+
+.infoItemAll {
+  display: block;
+  margin-top: 22px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $second-text-color;
+  @include font(14px, 300, 1);
+  background: url("../../../img/combined-shape.svg") no-repeat;
+  background-position: 107px center;
+}

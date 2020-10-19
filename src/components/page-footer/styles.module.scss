@@ -1,0 +1,55 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
+.pageFooter {
+  background-color: $second-bcg-color;
+  padding-top: 32px;
+  padding-bottom: 31px;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $alt-text-color;
+  @include font(14px, 700, 1);
+}
+
+.regnumber,
+.identnumber,
+.telephone {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $alt-text-color;
+  @include font(14px, 300, 1);
+}
+
+.identnumber {
+  margin-bottom: 24px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 795px;
+}
+
+.copyright {
+  margin: 0;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $copyright-text-color;
+  @include font(11px, 300, 1.6);
+}

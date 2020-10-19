@@ -1,0 +1,21 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
+.pageHeader {
+  margin-top: 1px;
+  border-bottom: solid 1px $pale-grey;
+  background-color: $first-bcg-color;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin-top: 5px;
+}

@@ -1,0 +1,58 @@
+@import "../../../assets/mixins.scss";
+@import "../../../assets/variables.scss";
+
+.cardContainer {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  width: 1200px;
+  background-color: $first-bcg-color;
+
+  &:last-of-type {
+    margin-bottom: 96px;
+  }
+  &:nth-of-type(2) {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+
+  img {
+    width: 491px;
+    height: 350px;
+  }
+}
+
+.content {
+  padding-left: 32px;
+  padding-top: 25px;
+  width: 709px;
+  border-bottom: solid 2px $alt-text-color;
+}
+
+.address {
+  margin: 0;
+  margin-bottom: 27px;
+  text-transform: uppercase;
+  font-family: $alt-text-font;
+  color: $alt-text-color;
+  text-align: left;
+  @include font(16px, 400, 1);
+}
+
+.name {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: $main-text-font;
+  color: $side-text-color;
+  text-align: left;
+  @include font(40px, bold, 1.4);
+}
+
+.description {
+  display: block;
+  margin: 0;
+  width: 590px;
+  font-family: $main-text-font;
+  text-align: left;
+  color: $main-text-color;
+  @include font(16px, 400, 1.5);
+}
